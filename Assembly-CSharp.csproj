@@ -54,7 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Enemy_frog.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+ <Reference Include="Cinemachine">
+ <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
@@ -70,17 +74,14 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>E:/UnityEditor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
