@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_frog : MonoBehaviour
+public class Enemy_frog : Enemy
 {
     private Rigidbody2D rb;
-    private Animator anim;
+    // private Animator anim;
     private Collider2D coll;
     public LayerMask ground;
     public Transform leftpoint,rightpoint;
@@ -14,11 +14,12 @@ public class Enemy_frog : MonoBehaviour
 
     private bool Faceleft = true;
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         rb = GetComponent<Rigidbody2D>();
         // transform.DetachChildren();
-        anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
         leftx = leftpoint.position.x;
         rightx = rightpoint.position.x;
