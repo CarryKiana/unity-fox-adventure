@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Enemy_eagle.cs" />
      <Compile Include="Assets\Scripts\Enemy_frog.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
  <Reference Include="Cinemachine">
  <HintPath>E:/UnityProject/unity-fox-adventure/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
